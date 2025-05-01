@@ -1,0 +1,34 @@
+public class Especie {
+String nombre;
+    float vida;
+    String clase;
+    float costo;
+    float especie;
+    float especie1;
+    float especie2;
+    float especie3;
+    float especie4;
+    int cantidadDisponible;
+    int cantidadVendida;
+    String cacatua;
+    String boaConstrictor;
+    String titiDorado;
+    String guacamayRoja;
+
+
+    String devolverAnimal1(){
+        return cacatua;
+    }
+
+    String devolverAnimal2(){
+        return boaConstrictor;
+    }
+
+    String devolverAnimal3(){
+        return titiDorado;
+    }
+
+    String devolverAnimal4(){
+        return guacamayRoja;
+    }
+}
