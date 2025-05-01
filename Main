@@ -1,15 +1,35 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+//Una tienda demascotas exoticas ha presemtado continuamente incvonsistencias en sus balances
+// mensuales debido a que los registros fisicos de compraa y de ventas de mmascotas se han extraviado.
+// la tienda hara esto de manera digital. tienen 4 especies exoticas, cacatua, boa constrictor, titi dorado, y guacamay roja
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+public class Main {
+
+    public static void main(String[]args){
+
+        Especie animal1= new Especie();
+        Especie animal2= new Especie();
+        Especie animal3= new Especie();
+        Especie animal4= new Especie();
+
+        animal1.nombre= animal1.cacatua;
+        animal2.nombre= animal2.boaConstrictor;
+        animal3.nombre= animal3.titiDorado;
+        animal4.nombre= animal4.guacamayRoja;
+
+        float especie1 =  20;
+        float especie2 =  15;
+        float especie3 =  40;
+        float especie4 =  30;
+
+        animal1.costo(especie1);
+        animal2.costo(especie2);
+        animal3.costo(especie3);
+        animal4.costo(especie4);
+
+System.out.println("El animal 1 es: "+ animal1.devolverAnimal1());
+        System.out.println("El animal 2 es: "+ animal2.devolverAnimal2());
+        System.out.println("El animal 3 es: "+ animal3.devolverAnimal3());
+        System.out.println("El animal 4 es: "+ animal4.devolverAnimal4());
+
     }
 }
